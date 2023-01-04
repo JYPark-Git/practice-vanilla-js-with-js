@@ -46,10 +46,13 @@ body {
   transition:.3s;
 
 }
-.year div:hover::before {
-  height:100%;
-  filter:drop-shadow(0 0 20px var(--clr));
-}
-.year div:hover span {
-  opacity:0;
+
+@media (hover: hover) and (pointer: fine) {
+  .year div:hover::before {
+    height:100%;
+    filter:drop-shadow(0 0 20px var(--clr));
+  }
+  .year div:hover span {
+    opacity:0;
+  }
 }
