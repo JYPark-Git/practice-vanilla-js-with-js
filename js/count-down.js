@@ -9,7 +9,6 @@ setInterval(() => {
   const sec = toArr(now.getSeconds());
   const timeArr = (hrs + min + sec).split("");
 
-
   for(let i = 0; i < numBoxes.length; i ++) {
     const el = numBoxes[i].querySelector('.numb');
     const bf = el.innerHTML;
