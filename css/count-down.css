@@ -11,6 +11,10 @@
   flex-wrap: wrap;
   gap:30px;
 }
+.wrapper .set {
+  display:flex;
+  gap:15px;
+}
 .wrapper .number-box {
   width:90px;
   height:100px;
